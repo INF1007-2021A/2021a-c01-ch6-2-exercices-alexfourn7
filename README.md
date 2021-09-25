@@ -1,5 +1,16 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod-redirect-0.herokuapp.com/)
 
+
+## Résultats
+Score | Critères
+--- | ---
+1/1 | color_name_to_hex
+1/1 | compute_mse
+0/1 | create_list
+1/1 | list_to_dict
+3/4 | **Total**
+
+[Voir détails](./logs/tests_results.txt) | [Rafraîchir](../../)
 # Exercices en vrac (chapitre 6.2)
 
 Avant de commencer, consultez les instructions à suivre dans [instructions.md](instructions.md)

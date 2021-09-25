@@ -1,0 +1,23 @@
+test_color_name_to_hex (__main__.TestExercice) ... ok
+test_compute_mse (__main__.TestExercice) ... ok
+test_create_list (__main__.TestExercice) ... FAIL
+test_list_to_dict (__main__.TestExercice) ... ok
+
+======================================================================
+FAIL: test_create_list (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 48, in test_create_list
+    self.assertListEqual(
+AssertionError: Lists differ: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13[57252 chars]0000] != [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,[57248 chars]9999]
+
+First differing element 0:
+1
+0
+
+Diff is 86332 characters long. Set self.maxDiff to None to see it. : Mauvaise reponse
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.052s
+
+FAILED (failures=1)
